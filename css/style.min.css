@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  src: url("../fonts/Montserrat-Bold-Italic.eot");
+  src: url("../fonts/Montserrat-Bold-Italic.eot") format("embedded-opentype"), url("../fonts/Montserrat-Bold-Italic.woff2") format("woff2"), url("../fonts/Montserrat-Bold-Italic.woff") format("woff"), url("../fonts/Montserrat-Bold-Italic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  src: url("../fonts/Montserrat-ExtraBoldItalic.eot");
+  src: url("../fonts/Montserrat-ExtraBoldItalic.eot") format("embedded-opentype"), url("../fonts/Montserrat-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/Montserrat-ExtraBoldItalic.woff") format("woff"), url("../fonts/Montserrat-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  src: url("../fonts/Montserrat-ExtraLight.eot");
+  src: url("../fonts/Montserrat-ExtraLight.eot") format("embedded-opentype"), url("../fonts/Montserrat-ExtraLight.woff2") format("woff2"), url("../fonts/Montserrat-ExtraLight.woff") format("woff"), url("../fonts/Montserrat-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -ms-grid;
+  display: grid;
+  display: block;
+}
+
+body > * {
+  padding: 10px;
+  border-radius: 7px;
+  margin: 1px;
+}
+
+.no-webp body header {
+  background-image: url("../img/header/ksnip_20230816-144902.png"); }
+
+body header {
+  background-color: gray;
+}				.avif body header {					background-image: url("../img/header/ksnip_20230816-144902.avif")				}			
+
+body header p {
+  text-decoration: overline;
+  text-align: center;
+}
+
+.no-webp body main {
+  background-image: url("../img/main/ksnip_20230816-144953.png"); }
+
+body main {
+  background-color: gray;
+}				.avif body main {					background-image: url("../img/main/ksnip_20230816-144953.avif")				}			
+
+body p {
+  text-decoration: line-through;
+  text-align: center;
+  background-image: url("../img/youtube.svg");
+}
+
+.no-webp body footer {
+  background-image: url("../img/footer/ksnip_20230816-145026.png"); }
+
+body footer {
+  background-color: gray;
+}				.avif body footer {					background-image: url("../img/footer/ksnip_20230816-145026.avif")				}			
+
+body footer p {
+  text-decoration: underline;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  body header p {
+    text-align: left;
+  }
+
+  body p {
+    color: darkblue;
+  }
+
+  body footer p {
+    text-align: right;
+  }
+}
+
+.webp body header { background-image: url(../img/header/ksnip_20230816-144902.webp); }
+
+.webp body main { background-image: url(../img/main/ksnip_20230816-144953.webp); }
+
+.webp body footer { background-image: url(../img/footer/ksnip_20230816-145026.webp); }
