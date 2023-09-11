@@ -13,6 +13,7 @@ function watcher() {
   gulp.watch(path.img.watch, task.handleImages);
 };
 
+
 const building = gulp.parallel(task.copyFiles, task.copyFonts, task.buildHtml, task.buildScss, task.buildJs, task.handleImages);
 const tracking = gulp.parallel(watcher, task.initServer);
 const devMode = gulp.series(task.cleanDist, building, tracking);
